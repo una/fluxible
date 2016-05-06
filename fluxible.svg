@@ -1,0 +1,9 @@
+<svg>
+  <filter id="1600k" x="0" y="0">
+    <feComponentTransfer in="SourceGraphic">
+       <feFuncR type="linear" intercept=".04"/>
+       <feFuncG type="linear" intercept=".015" />
+       <feFuncB type="linear" intercept="-.015" />
+    </feComponentTransfer>
+  </filter>
+</svg>
